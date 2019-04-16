@@ -27,6 +27,7 @@
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "mongoose": "^5.5.1",
-    "nodemon": "^1.18.11"
+    "nodemon": "^1.18.11",
+    "swapi-node": "^0.4.4"
   }
 }
