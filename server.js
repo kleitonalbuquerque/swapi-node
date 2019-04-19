@@ -1,8 +1,8 @@
-const express = require('express');
-const bodyParser = require('body-parser');
+const express = require('express')
+const bodyParser = require('body-parser')
 
 // create express app
-const app = express();
+const app = express()
 
 // parse requests of content-type - application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: true }))
@@ -20,7 +20,7 @@ mongoose.Promise = global.Promise;
 mongoose.connect(dbConfig.url, {
     useNewUrlParser: true
 }).then(() => {
-    console.log("Successfully connected to the database");
+    console.log("Successfully connected to the database");    
 }).catch(err => {
     console.log('Could not connect to the database. Exiting now...', err);
     process.exit();
@@ -28,11 +28,11 @@ mongoose.connect(dbConfig.url, {
 
 // define a simple route
 app.get('/', (req, res) => {
-    res.json({ "message": "Welcome to API Star Wars Planets." });
+    res.json({"message": "Welcome to Planets application. Take planets quickly. Organize and keep track of all your planets."});
 });
 
 // Require Planets routes
-require('./app/routes/note.routes.js')(app);
+require('./app/routes/planet.routes.js')(app);
 
 // listen for requests
 app.listen(3000, () => {
