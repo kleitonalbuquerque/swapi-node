@@ -1,0 +1,2 @@
+{"_id":{"$oid":"5cb9f0708a3c417872839e9c"},"nome":"Alderaan","clima":"temperate","terreno":"grasslands, mountains","createdAt":{"$date":"2019-04-19T15:59:45.000Z"},"updatedAt":{"$date":"2019-04-19T15:59:45.000Z"},"__v":0}
+{"_id":{"$oid":"5cbb618e6b0f36684eb36c25"},"nome":"Yavin IV","clima":"temperate, tropical","terreno":"jungle, rainforests","filmes":"https://swapi.co/api/films/1/"}
