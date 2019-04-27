@@ -1,2 +1,22 @@
-{"_id":{"$oid":"5cb9f0708a3c417872839e9c"},"nome":"Alderaan","clima":"temperate","terreno":"grasslands, mountains","createdAt":{"$date":"2019-04-19T15:59:45.000Z"},"updatedAt":{"$date":"2019-04-19T15:59:45.000Z"},"__v":0}
-{"_id":{"$oid":"5cbb618e6b0f36684eb36c25"},"nome":"Yavin IV","clima":"temperate, tropical","terreno":"jungle, rainforests","filmes":"https://swapi.co/api/films/1/"}
+{"_id":{"$oid":"5cc49ef24de8fcf20aa2fcab"},"nome":"Alderaan","clima":"temperate","terreno":"grasslands, mountains","filmes":["https://swapi.co/api/films/6/","https://swapi.co/api/films/1/"]}
+{"_id":{"$oid":"5cc4c5d84de8fcf20aa2fcac"},"nome":"Yavin IV","clima":"temperate, tropical","terreno":"jungle, rainforests","filmes":["https://swapi.co/api/films/1/"]}
+{"_id":{"$oid":"5cc4c7014de8fcf20aa2fcad"},"nome":"Hoth","clima":"frozen","terreno":"tundra, ice caves, mountain ranges","filmes":["https://swapi.co/api/films/2/"]}
+{"_id":{"$oid":"5cc4c9344de8fcf20aa2fcaf"},"nome":"Dagobah","clima":"murky","terreno":"swamp, jungles","filmes":["https://swapi.co/api/films/2/","https://swapi.co/api/films/3/","ht://swapi.co/api/films/6/"]}
+{"_id":{"$oid":"5cc4ca5c4de8fcf20aa2fcb0"},"nome":"Bespin","clima":"temperate","terreno":"gas giant","filmes":["https://swapi.co/api/films/2/"]}
+{"_id":{"$oid":"5cc4ca8c4de8fcf20aa2fcb1"},"nome":"Endor","clima":"temperate","terreno":"forests, mountains, lakes","filmes":["https://swapi.co/api/films/3/"]}
+{"_id":{"$oid":"5cc4cb934de8fcf20aa2fcb2"},"nome":"Naboo","clima":"temperate","terreno":"grassy hills, swamps, forests, mountains","filmes":["https://swapi.co/api/films/3/","https://swapi.co/api/films/4/","https://swapi.co/api/films/5/","https://swapi.co/api/films/6/"]}
+{"_id":{"$oid":"5cc4cba64de8fcf20aa2fcb3"},"nome":"Coruscant","clima":"temperate","terreno":"cityscape, mountains","filmes":["https://swapi.co/api/films/3/","https://swapi.co/api/films/4/","https://swapi.co/api/films/5/","https://swapi.co/api/films/6/"]}
+{"_id":{"$oid":"5cc4cc784de8fcf20aa2fcb4"},"nome":"Kamino","clima":"temperate","terreno":"ocean","filmes":["https://swapi.co/api/films/5/"]}
+{"_id":{"$oid":"5cc4cc8b4de8fcf20aa2fcb5"},"nome":"Geonosis","clima":"temperate, arid","terreno":"rock, desert, mountain, barren","filmes":["https://swapi.co/api/films/5/"]}
+{"_id":{"$oid":"5cc4cee44de8fcf20aa2fcb6"},"nome":"Utapau","clima":"temperate, arid, windy","terreno":"scrublands, savanna, canyons, sinkholes","filmes":["https://swapi.co/api/films/6/"]}
+{"_id":{"$oid":"5cc4cef54de8fcf20aa2fcb7"},"nome":"Mustafar","clima":"hot","terreno":"volcanoes, lava rivers, mountains, caves","filmes":["https://swapi.co/api/films/6/"]}
+{"_id":{"$oid":"5cc4cf294de8fcf20aa2fcb8"},"nome":"Kashyyyk","clima":"tropical","terreno":"jungle, forests, lakes, rivers","filmes":["https://swapi.co/api/films/6/"]}
+{"_id":{"$oid":"5cc4cf294de8fcf20aa2fcb9"},"nome":"Polis Massa","clima":"artificial temperate","terreno":"airless asteroid","filmes":["https://swapi.co/api/films/6/"]}
+{"_id":{"$oid":"5cc4cf554de8fcf20aa2fcba"},"nome":"Kashyyyk","clima":"tropical","terreno":"jungle, forests, lakes, rivers","filmes":["https://swapi.co/api/films/6/"]}
+{"_id":{"$oid":"5cc4cf6b4de8fcf20aa2fcbb"},"nome":"Polis Massa","clima":"artificial temperate","terreno":"airless asteroid","filmes":["https://swapi.co/api/films/6/"]}
+{"_id":{"$oid":"5cc4cfc14de8fcf20aa2fcbc"},"nome":"Mygeeto","clima":"frigid","terreno":"glaciers, mountains, ice canyons","filmes":["https://swapi.co/api/films/6/"]}
+{"_id":{"$oid":"5cc4cfdb4de8fcf20aa2fcbd"},"nome":"Felucia","clima":"hot, humid","terreno":"fungus forests","filmes":["https://swapi.co/api/films/6/"]}
+{"_id":{"$oid":"5cc4d0a84de8fcf20aa2fcbe"},"nome":"Cato Neimoidia","clima":"temperate, moist","terreno":"mountains, fields, forests, rock arches","filmes":["https://swapi.co/api/films/6/"]}
+{"_id":{"$oid":"5cc4d0a84de8fcf20aa2fcbf"},"nome":"Saleucami","clima":"hot","terreno":"caves, desert, mountains, volcanoes","filmes":["https://swapi.co/api/films/6/"]}
+{"_id":{"$oid":"5cc4d18b4de8fcf20aa2fcc0"},"nome":"Stewjon","clima":"temperate","terreno":"grass","filmes":[""]}
+{"_id":{"$oid":"5cc4d18b4de8fcf20aa2fcc1"},"nome":"Eriandu","clima":"polluted","terreno":"cityscape","filmes":[""]}

@@ -4,9 +4,10 @@ const PlanetSchema = mongoose.Schema({
     nome: String,
     clima: String,
     terreno: String,
-    filmes: String
+    filmes: Array
 }, {
     timestamps: true
 });
 
 module.exports = mongoose.model('Planets', PlanetSchema);
+
