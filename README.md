@@ -4,12 +4,12 @@
 
 ### Tecnologias Aplicadas no Projeto:
 
-*Nodejs
-*Express
-*Body-Parser
-*MongoDB
-*Mongoose
-*Nodemon
+* Nodejs
+* Express
+* Body-Parser
+* MongoDB
+* Mongoose
+* Nodemon
 
 ### Iniciar
 
