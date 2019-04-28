@@ -10,9 +10,11 @@
 * MongoDB
 * Mongoose
 * Nodemon
+* Postman
 
 ### Iniciar
 
+* Importar SWAPI.postman_collection.json para seu Postman
 * Abrir Terminal
 * Clonar projeto ($ git clone git@github.com:kleitonalbuquerque/swapi-node.git)
 * npm install ($ npm install)

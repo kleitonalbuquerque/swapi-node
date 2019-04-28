@@ -1,0 +1,156 @@
+{
+	"info": {
+		"_postman_id": "d7fc3eaf-614b-44d1-9695-eb32f4b213bf",
+		"name": "SWAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/planets",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"nome\": \"teste\", \"clima\": \"teste\", \"terreno\": \"teste\"}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/planets",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"planets"
+					]
+				},
+				"description": "Retorna todos os planetas"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/planets/5cb9f0708a3c417872839e9c",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"nome\": \"Alderaan\", \"clima\": \"temperate\", \"terreno\": \"grasslands, mountains\", \"filmes\": \"https://swapi.co/api/films/6/, https://swapi.co/api/films/1/\"}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/planets/5cb9f0708a3c417872839e9c",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"planets",
+						"5cb9f0708a3c417872839e9c"
+					]
+				},
+				"description": "Atualiza dados de um planeta"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/planets/5cb9ee288a3c417872839e9b",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:3000/planets/5cb9ee288a3c417872839e9b",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"planets",
+						"5cb9ee288a3c417872839e9b"
+					]
+				},
+				"description": "Deleta um planeta pelo ID"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/planets",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"nome\" : \"Alderaan\", \"clima\" : \"temperate\", \"terreno\" : \"grasslands, mountains\", \"filmes\": \"https://swapi.co/api/films/6/, https://swapi.co/api/films/1/\"}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/planets",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"planets"
+					]
+				},
+				"description": "Adiciona um novo planeta"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/planets/5cc4c7014de8fcf20aa2fcad",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:3000/planets/5cc4c7014de8fcf20aa2fcad",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"planets",
+						"5cc4c7014de8fcf20aa2fcad"
+					]
+				},
+				"description": "Obter planeta por ID"
+			},
+			"response": []
+		}
+	]
+}
