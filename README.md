@@ -19,6 +19,6 @@
 * Clonar projeto ($ git clone git@github.com:kleitonalbuquerque/swapi-node.git)
 * npm install ($ npm install)
 * Importar a base de dados no MongoDB ($ mongoimport -d database_name -c plantes output.json)
-* Inicar MongoDB ($ sudo systemctl start mongodb)
+* Inicar MongoDB ($ sudo systemctl start mongod)
 * Verificar se o MongoDB está inicializado($ sudo tail /var/logo/mongodb/mongodlog)
 * Iniciar projeto($ nodemon server.js)
